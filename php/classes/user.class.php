@@ -1,6 +1,6 @@
 <?php
   class User{
-    private $id, $nom, $prenom, $uname, $password, $email, $contact;//$photo, $hasshop, $space;
+    private $id, $nom, $prenom, $uname, $password, $email, $contact;
 
     public function getId(){return $this->id;}
     public function getNom(){return $this->nom;}
